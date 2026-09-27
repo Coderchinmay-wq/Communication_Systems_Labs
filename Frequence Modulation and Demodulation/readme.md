@@ -172,3 +172,85 @@ Fmin = ______ Hz
 ΔF = Fmax - Fmin
 
 ΔF = ______ Hz
+
+### 2. FM Modulation Index
+
+$$ \beta = \frac{\Delta F}{F_m} $$
+
+where:
+
+- β = FM modulation index
+- ΔF = frequency deviation
+- Fm = modulating frequency​
+
+ΔF = ______ Hz
+
+Fm = ______ Hz
+
+β = ______
+
+### 3. Frequency Sensitivity
+
+$$ K_f = \frac{\Delta F}{A_m} $$
+
+where:
+
+- Kf = frequency sensitivity
+- ΔF = frequency deviation
+- Am = amplitude of modulating signal
+
+ΔF = ______ Hz
+
+Am = ______ V
+
+Kf = ______ Hz/V
+
+### 4. FM Bandwidth
+
+The bandwidth is calculated using:
+
+$$ BW = 2(\Delta F + F_m) $$
+
+ΔF = ______ Hz
+
+Fm = ______ Hz
+
+BW = ______ Hz
+
+## Observation Table
+| Fmax (Hz) | Fmin (Hz) | ΔF (Hz) |  β | Kf (Hz/V) | BW (Hz) |
+| --------: | --------: | ------: | -: | --------: | ------: |
+|           |           |         |    |           |         |
+
+## Expected Waveforms
+### Message Signal
+
+The message signal is a low-frequency sinusoidal signal.
+
+### Carrier Signal
+
+The carrier is a high-frequency sinusoidal signal with constant
+amplitude.
+
+### Frequency Modulated Signal
+
+The amplitude remains approximately constant while the spacing
+between successive cycles varies according to the message signal.
+
+## Experimental Results
+### FM Waveform
+
+### Demodulated Waveform
+
+## Practical Implementation
+
+The FM modulator and demodulator circuits were implemented on a
+breadboard and tested using laboratory equipment.
+
+Breadboard Implementation
+
+Laboratory Setup
+
+Proteus Simulation
+
+The circuit can also be simulated using Proteus.
