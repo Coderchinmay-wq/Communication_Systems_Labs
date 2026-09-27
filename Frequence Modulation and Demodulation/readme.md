@@ -127,14 +127,14 @@ original message signal.
 | Parameter | Value |
 |---|---:|
 | Amplitude, Am | ___ V |
-| Frequency, Fm | ___ Hz |
+| Frequency, Fm | _514__ Hz |
 
 ### Carrier Signal
 
 | Parameter | Value |
 |---|---:|
-| Carrier frequency, Fc | ___ Hz |
-| Carrier amplitude, Ac | ___ V |
+| Carrier frequency, Fc | _800_ Hz |
+| Carrier amplitude, Ac | __ V |
 
 ---
 
@@ -164,14 +164,13 @@ According to the laboratory manual:
 
 Therefore,
 
-```text
-Fmax = ______ Hz
+Fmax = _307_ Hz
 
-Fmin = ______ Hz
-```
+Fmin = _100_ Hz
+
 ΔF = Fmax - Fmin
 
-ΔF = ______ Hz
+ΔF = _207_ Hz
 
 ### 2. FM Modulation Index
 
@@ -183,11 +182,11 @@ where:
 - ΔF = frequency deviation
 - Fm = modulating frequency​
 
-ΔF = ______ Hz
+ΔF = _207_ Hz
 
-Fm = ______ Hz
+Fm = _307_ Hz
 
-β = ______
+β = _0.6_
 
 ### 3. Frequency Sensitivity
 
@@ -199,11 +198,11 @@ where:
 - ΔF = frequency deviation
 - Am = amplitude of modulating signal
 
-ΔF = ______ Hz
+ΔF = _207_ Hz
 
-Am = ______ V
+Am = _7.4_ V
 
-Kf = ______ Hz/V
+Kf = _27.9_ Hz/V
 
 ### 4. FM Bandwidth
 
@@ -211,16 +210,16 @@ The bandwidth is calculated using:
 
 $$ BW = 2(\Delta F + F_m) $$
 
-ΔF = ______ Hz
+ΔF = _207_ Hz
 
-Fm = ______ Hz
+Fm = _307_ Hz
 
-BW = ______ Hz
+BW = _514_ Hz
 
 ## Observation Table
-| Fmax (Hz) | Fmin (Hz) | ΔF (Hz) |  β | Kf (Hz/V) | BW (Hz) |
-| --------: | --------: | ------: | -: | --------: | ------: |
-|           |           |         |    |           |         |
+| Fmax (Hz) | Fmin (Hz) | ΔF (Hz) |  β     | Kf (Hz/V) | BW (Hz) |
+| --------: | --------: | ------: | -------| --------- | ------: |
+| _307_     | _100_     | _207_   |  _0.6_ |  _27.9_   | _514_   |
 
 ## Expected Waveforms
 ### Message Signal
@@ -254,3 +253,25 @@ Laboratory Setup
 Proteus Simulation
 
 The circuit can also be simulated using Proteus.
+```
+Circuit/
+└── Proteus/
+    ├── FM_Modulator.pdsprj
+    └── FM_Demodulator.pdsprj
+```
+## Result
+
+The Frequency Modulation and Demodulation circuit was implemented
+and verified.
+
+The FM waveform was observed by varying the instantaneous
+frequency of the carrier according to the modulating signal.
+The FM signal was subsequently demodulated and the recovered
+signal was observed.
+
+## Conclusion
+
+The Frequency Modulation and Demodulation circuit was designed,
+implemented and verified. The FM waveform was observed on the
+oscilloscope, and the demodulation process was used to recover the
+modulating signal.
