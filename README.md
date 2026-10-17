@@ -35,7 +35,7 @@ Communication Systems Laboratory throughout the semester.
 | 01 | Component Identification and Familiarization of Equipment | ✅ |
 | 02 | Amplitude Modulation and Demodulation | ✅ |
 | 03 | Frequency Modulation and Demodulation | ✅ |
-| 04 | Flat-Top Sampling | ⬜ |
+| 04 | Flat-Top Sampling | ✅ |
 | 05 | Time Division Multiplexing and Demultiplexing | ⬜ |
 | 06 | Amplitude Shift Keying (ASK) | ⬜ |
 | 07 | Frequency Shift Keying (FSK) | ⬜ |
